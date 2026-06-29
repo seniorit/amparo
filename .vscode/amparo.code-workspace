@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "editor.hover.sticky": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'Hack Nerd Font', monospace",
+    "terminal.integrated.suggest.cdPath": "relative",
+    "terminal.integrated.suggest.enabled": true,
+  },
+}
