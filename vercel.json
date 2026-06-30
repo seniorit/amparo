@@ -3,7 +3,6 @@
   "devCommand": "bun dev",
   "installCommand": "bun install",
   "framework": "nextjs",
-  "nodeVersion": "24.x",
   "env": {
     "DATABASE_URL": "@database_url",
     "NEXTAUTH_SECRET": "@nextauth_secret",
