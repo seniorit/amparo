@@ -1,0 +1,17 @@
+# Ignore files during Vercel build
+.git
+.gitignore
+README.md
+BACKEND_SPEC.md
+STYLE_GUIDE.md
+.next
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env.local
+.env.*.local
+.DS_Store
+*.pem
+.vercel
+bun.lock

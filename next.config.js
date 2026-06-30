@@ -15,6 +15,9 @@ const nextConfig = {
     ignoreBuildErrors: false,
   },
   images: { unoptimized: true },
+  api: {
+    responseLimit: false,
+  },
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.output.filename = 'static/chunks/[name]-[contenthash:8].js';

@@ -2,10 +2,11 @@
   "name": "app",
   "private": true,
   "scripts": {
-    "dev": "rm -rf .next && next dev",
-    "build": "rm -rf .next && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .next node_modules"
   },
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/safe-seed.ts"
